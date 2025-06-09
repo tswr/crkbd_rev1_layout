@@ -19,6 +19,7 @@ Replace created files with the files from this repository
 ## Build
 
 ```
+qmk clean
 qmk compile
 ```
 
