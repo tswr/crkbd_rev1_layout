@@ -28,6 +28,6 @@ qmk compile
 For both splits enter the bootloader and
 ```
 sudo mount -o uid=1000,gid=1000 /dev/sdb1 /mnt/rp2040
-cp ~/qmk_firmware/crkbd_rev1_tswr_rp2040_ce.uf2 /mnt/rp2040/
+cp ~/qmk_firmware/crkbd_rev1_tswr.uf2 /mnt/rp2040/
 sudo umount /mnt/rp2040
 ```
